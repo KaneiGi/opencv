@@ -12,4 +12,4 @@ if outfile != infile[0]:
     try:
         Image.open(filename).save(outfile)
     except IOError:
-	    print("can not convert")
+        print("error")
