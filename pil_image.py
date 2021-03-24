@@ -13,3 +13,4 @@ if outfile != infile[0]:
         Image.open(filename).save(outfile)
     except IOError:
         print("error")
+    print("it will change")
